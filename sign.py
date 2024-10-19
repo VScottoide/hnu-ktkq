@@ -2,7 +2,7 @@ import json
 import requests
 
 userBindInfo = {
-    "sign": "77D73ACB58C9AD316C777DC2E63ADF04F0F4E22B",# 抓包得到
+    "sign": "77D73ACB58C9AD316C777DC2E63ADF04F0F4E22B",
     "userType": "1",
     "userCode": "24220854120018",
     "unitCode": "10589",
