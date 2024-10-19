@@ -18,6 +18,7 @@ userBindInfo = {
     "xyMc": "",
 }
 
+
 #获取今日签到列表
 def get_qd_list():
     url = "https://ktkq.hainanu.edu.cn/app/getQdKbList"
