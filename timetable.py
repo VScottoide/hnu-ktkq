@@ -6,7 +6,6 @@ sign = ""
 userCode = ""
 unitCode = ""
 
-
 def http(xq):
     headers = {
         "Host": "ktkq.hainanu.edu.cn",

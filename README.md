@@ -11,7 +11,7 @@
 
 1. 克隆仓库到本地
 2. 安装requests库
-3. 配置sign.py中的userBindInfo的值。具体方法为：开启抓包后打开小程序进入签到的页面（等老师发布签到以后顺便抓包就行），其中https://ktkq.hainanu.edu.cn/app/getQdKbList的请求参数即为userBindInfo中需要填的值，一一对应填入即可。
+3. 配置sign.py中的userBindInfo的值。具体方法为：开启抓包后打开小程序进入签到的页面（等老师发布签到以后顺便抓包就行），其中 https://ktkq.hainanu.edu.cn/app/getQdKbList 的请求参数即为userBindInfo中需要填的值，一一对应填入即可。
 
 ## 补充
 
