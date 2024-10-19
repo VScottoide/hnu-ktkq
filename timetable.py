@@ -2,9 +2,9 @@ import json
 import requests
 import datetime
 
-sign = "77D73ACB58C9AD316C777DC2E63ADF04F0F4E22B"
-userCode = "24220854120018"
-unitCode = "10589"
+sign = ""
+userCode = ""
+unitCode = ""
 
 def http(xq):
     headers = {

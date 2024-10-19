@@ -2,20 +2,20 @@ import json
 import requests
 
 userBindInfo = {
-    "sign": "77D73ACB58C9AD316C777DC2E63ADF04F0F4E22B",
-    "userType": "1",
-    "userCode": "24220854120018",
-    "unitCode": "10589",
-    "userName": "栾聪炜",
-    "syMc": "青云书院",
-    "syBjMc": "青云C28栋60班",
-    "dsZgh": "null",
-    "dsXm": "null",
-    "fdyZgh": "994056",
-    "fdyXm": "王博耘",
-    "bjMc": "2024全日制专业学位硕士网络空间安全学院（密码学院）085412 网络与信息安全班",
-    "zyMc": "网络与信息安全",
-    "xyMc": "网络空间安全学院（密码学院）",
+    "sign": "",
+    "userType": "",
+    "userCode": "",
+    "unitCode": "",
+    "userName": "",
+    "syMc": "",
+    "syBjMc": "",
+    "dsZgh": "",
+    "dsXm": "",
+    "fdyZgh": "",
+    "fdyXm": "",
+    "bjMc": "",
+    "zyMc": "",
+    "xyMc": "",
 }
 
 #获取今日签到列表
