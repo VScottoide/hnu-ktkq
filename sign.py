@@ -45,7 +45,9 @@ def get_qd_list():
     }
     response = requests.post(url, headers=headers, data=data)
     data = json.loads(response.text)
-    print(data['today'])
+    print(data['today']+' 今日课表')
+    sorted(data['Rows'],key = lambda item:item['isDjj1'] )
+    
     return data['Rows']
 
 # 获取课程签到信息
@@ -134,9 +136,14 @@ def main():
     # 从签到列表中获取需要签到的课程
     qd_kc = {}
     for i in range(len(qd_list)):
-        print('[' +qd_list[i]["kcMc"] + '] ' + qd_list[i]["qdQkMc"] + ', ' + qd_list[i]["xsQdQkMc"])
+        print("================================")
+        print(qd_list[i]["skSj"])
+        print(qd_list[i]["skDd"])
+        print('[' + qd_list[i]["kcMc"] +']  '+ qd_list[i]["qdQkMc"] + ',' + qd_list[i]["xsQdQkMc"])
+        print(qd_list[i]["skJs"])
         if qd_list[i]["qdQkMc"] == '签到中' and qd_list[i]["xsQdQkMc"] == '未签':
             qd_kc = qd_list[i]
+    print("================================")
     if not qd_kc:
         print('当前没有需要签到的课程')
         return
